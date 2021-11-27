@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pnp.androidnetworking">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".lab6.activity.GiohangActivity"/>
+        <activity android:name=".lab6.activity.ChiTietSanPham"/>
+        <activity android:name=".lab6.activity.HelloActivity"/>
+        <activity android:name=".lab6.activity.Lab6MainActivity"/>
+        <activity android:name=".lab6.activity.DienThoaiActivity"/>
+        <activity android:name=".lab6.testapi.TestApiActivity"/>
+        <activity android:name=".lab4.lab41.lab41UpdateActivity"/>
+        <activity android:name=".lab2.Lab22Activity"></activity>
+        <activity android:name=".lab2.Lab21Activity" />
+        <activity android:name=".lab8.Lab8MainActivity" />
+        <activity android:name=".lab7.Lab7MainActivity" />
+        <activity android:name=".lab5.Lab5MainActivity" />
+        <activity android:name=".lab3.Lab3MainActivity" />
+        <activity android:name=".lab1.Lab13Activity" />
+        <activity android:name=".lab1.Lab12Activity" />
+        <activity android:name=".lab1.Lab11Activity" />
+        <activity android:name=".lab2.Lab2MainActivity" />
+        <activity android:name=".lab1.Lab1MainActivity" />
+        <activity android:name=".MenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
